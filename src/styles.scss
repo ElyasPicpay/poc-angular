@@ -1,0 +1,28 @@
+@use "./config-scss/variables.scss";
+@use "./config-scss/reset.scss";
+@use "./config-scss/rem-calc.scss";
+
+:root {
+  --primary: #369c38;
+  --secondary: #132a13;
+  --padding: 15px;
+  --cinza: #405040;
+  --cinza-claro: #dedede;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+main {
+  max-width: rem-calc(600);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 400px;
+  padding: 30px;
+  margin: 0 auto;
+}
